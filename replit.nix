@@ -1,5 +1,8 @@
 { pkgs }: {
   deps = [
+    pkgs.os.listdir
+    pkgs.imagemagickBig
+    pkgs.dirlist = os.listdir("/usr")
     pkgs.python38Full
   ];
   env = {
